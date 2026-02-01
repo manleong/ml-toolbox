@@ -1,0 +1,29 @@
+# --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Windows System Files ---
+Thumbs.db
+thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- BFAtk-Avenger Specific Logs ---
+# Ignore the audit logs so you don't commit private IP data
+Blocked_Audit_Log.txt
+debug_scheduler.log
+
+# --- PowerShell / Scripts ---
+*.ps1xml
+*.log
+
+# --- Editor/IDE Directories (Optional but recommended) ---
+.vscode/
+.idea/
+*.swp
+*.swo
